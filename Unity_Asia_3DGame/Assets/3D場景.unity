@@ -215,6 +215,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Data: {fileID: 11400000, guid: ba31d54aef6cf48479ae0ea31c5cf7f7, type: 2}
+  dialog: {fileID: 1438819472}
+  textContent: {fileID: 696684378}
+  interval: 0.2
   playerInArea: 0
 --- !u!114 &102680486
 MonoBehaviour:
@@ -228,9 +231,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffae7af4a2f739b45ad12518db46102a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialougA: 
-  dialougB: 
-  dialougC: 
+  dialougA: "\u54C8\u56C9\u54C8\u56C9\u54C8\u56C9\u54C8\u56C9\u54C8\u56C9\u54C8\u56C9\u54C8\u56C9\u54C8\u56C9\u54C8\u56C9\u54C8\u56C9\u54C8\u56C9\u54C8\u56C9\u54C8\u56C9\u54C8\u56C9"
+  dialougB: "\u53C8\u898B\u9762\u4E86\u53C8\u898B\u9762\u4E86\u53C8\u898B\u9762\u4E86\u53C8\u898B\u9762\u4E86\u53C8\u898B\u9762\u4E86\u53C8\u898B\u9762\u4E86\u53C8\u898B\u9762\u4E86\u53C8\u898B\u9762\u4E86"
+  dialougC: "\u63B0\u63B0\u63B0\u63B0\u63B0\u63B0\u63B0\u63B0\u63B0\u63B0\u63B0\u63B0\u63B0\u63B0\u63B0\u63B0\u63B0\u63B0\u63B0\u63B0\u63B0\u63B0\u63B0\u63B0\u63B0\u63B0\u63B0\u63B0"
   count: 0
   countCurrent: 0
 --- !u!54 &102680487
@@ -5269,7 +5272,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u80E1\u5BB6\u777F:"
+  m_Text: "\u80E1\u5BB6\u777F"
 --- !u!222 &456101971
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5412,7 +5415,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u53BB\u6E05\u5883\u73A9\u56C9!\n"
+  m_Text: 
 --- !u!222 &696684379
 CanvasRenderer:
   m_ObjectHideFlags: 0
